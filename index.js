@@ -6,7 +6,7 @@ const mongo=require("mongodb").MongoClient;
 
 const url="mongodb+srv://aswin1310:rohitaswin@cluster0.jtzhd.mongodb.net/API_DB?retryWrites=true&w=majority";
 
-const port=5500;
+const port=3000;
 
 var mydb;
 
