@@ -206,7 +206,7 @@ router.get("/viewbalance/:accountnumber",function(req,res){
 		
 		console.log("Status:"+data.Status);
 		
-		res.status().json("message":"sucesss",output:data);
+		res.status(200).json("message":"sucesss",output:data);
 	}
 });
 
