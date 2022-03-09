@@ -1,12 +1,28 @@
 {
-  "name": "integration",
+  "name": "aswinkumar",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "web developement with express",
+  "main": "API.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Aswinkumar Baskar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "mongodb":"^4.1.3"
+    "cors":"^2.8.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aswinkumarbaskar/sampleapi.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }
